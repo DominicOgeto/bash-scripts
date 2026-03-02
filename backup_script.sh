@@ -1,3 +1,4 @@
+#!/bin/bash
 backup_files() {
     local source=$1
     local destination="backup2/$(date +%F).tar.gz"
